@@ -1,10 +1,11 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
+    "/content/swetabar-xwalk-trendsetters/:/",
+    "/content/swetabar-xwalk-trendsetters/configuration:/.helix/config.json",
+    "/content/swetabar-xwalk-trendsetters/metadata:/metadata.json",
+    "/content/swetabar-xwalk-trendsetters/tools/sidekick/library:/tools/sidekick/library.json"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/swetabar-xwalk-trendsetters/"
   ]
 }
