@@ -551,7 +551,7 @@ export async function run() {
       // Set outputs for detection
       core.setOutput('is_boilerplate', result.isBoilerplate.toString());
       core.setOutput('content_package_path', result.contentPackagePath);
-      core.setOutput('page_paths', result.pagePaths.join(','));
+      core.setOutput('page_paths', JSON.stringify(result.pagePaths));
 
       if (result.isBoilerplate) {
         core.info(`✅ Detected boilerplate package with ${result.pagePaths.length} paths: ${result.pagePaths.join(', ')}`);
@@ -565,7 +565,7 @@ export async function run() {
       // Set detection outputs
       core.setOutput('is_boilerplate', result.isBoilerplate.toString());
       core.setOutput('content_package_path', result.contentPackagePath);
-      core.setOutput('page_paths', result.pagePaths.join(','));
+      core.setOutput('page_paths', JSON.stringify(result.pagePaths));
 
       if (result.isBoilerplate) {
         core.info(`✅ Detected boilerplate package with ${result.pagePaths.length} paths: ${result.pagePaths.join(', ')}`);
