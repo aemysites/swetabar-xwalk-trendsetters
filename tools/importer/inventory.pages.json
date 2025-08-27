@@ -1,7 +1,7 @@
 {
   "templates": [
     {
-      "name": "'Multi-purpose Content Grid'",
+      "name": "Content Hub Template",
       "cluster": 1,
       "pages": [
         {
@@ -29,8 +29,8 @@
       "cluster": 3,
       "pages": [
         {
-          "url": "https://www.wknd-trendsetters.site/fashion-trends-young-adults",
-          "uuid": "d2dd722de7842a6232ce56b1307d383ff72c9358"
+          "url": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport",
+          "uuid": "1a14744466075b2d00884f27fb69e2633b6fcb84"
         }
       ]
     },
@@ -45,32 +45,32 @@
       ]
     },
     {
-      "name": "\"Portfolio Gallery\"",
+      "name": "Portfolio Grid",
       "cluster": 5,
       "pages": [
         {
-          "url": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport",
-          "uuid": "1a14744466075b2d00884f27fb69e2633b6fcb84"
+          "url": "https://www.wknd-trendsetters.site/fashion-insights",
+          "uuid": "67430c465ff7767e6ae98a0cffa44cd32754a351"
         }
       ]
     },
     {
-      "name": "'Content Grid Page'",
+      "name": "Gallery Page",
       "cluster": 6,
-      "pages": [
-        {
-          "url": "https://www.wknd-trendsetters.site/blog/latest-trends-young-casual-fashion",
-          "uuid": "971148fccf483ccd07f6ef722bc01c7fb46f61d5"
-        }
-      ]
-    },
-    {
-      "name": "Gallery Grid Page",
-      "cluster": 7,
       "pages": [
         {
           "url": "https://www.wknd-trendsetters.site/fashion-trends-of-the-season",
           "uuid": "1cfeb2756419a8f56a89a355f5557c3321845adb"
+        }
+      ]
+    },
+    {
+      "name": "'Portfolio Showcase'",
+      "cluster": 7,
+      "pages": [
+        {
+          "url": "https://www.wknd-trendsetters.site/fashion-trends-young-adults",
+          "uuid": "d2dd722de7842a6232ce56b1307d383ff72c9358"
         }
       ]
     },
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "name": "'Portfolio Showcase'",
+      "name": "'Content Dashboard'",
       "cluster": 9,
       "pages": [
         {
@@ -95,12 +95,12 @@
       ]
     },
     {
-      "name": "'Portfolio Showcase'",
+      "name": "'Content Hub'",
       "cluster": 10,
       "pages": [
         {
-          "url": "https://www.wknd-trendsetters.site/fashion-insights",
-          "uuid": "67430c465ff7767e6ae98a0cffa44cd32754a351"
+          "url": "https://www.wknd-trendsetters.site/blog/latest-trends-young-casual-fashion",
+          "uuid": "971148fccf483ccd07f6ef722bc01c7fb46f61d5"
         }
       ]
     }
