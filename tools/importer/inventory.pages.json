@@ -1,7 +1,7 @@
 {
   "templates": [
     {
-      "name": "'Multi-purpose Content Grid'",
+      "name": "'Modular Grid Layout'",
       "cluster": 1,
       "pages": [
         {
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "name": "'Dashboard Page'",
+      "name": "'Dashboard Overview'",
       "cluster": 4,
       "pages": [
         {
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "name": "\"Portfolio Gallery\"",
+      "name": "Dashboard Overview",
       "cluster": 5,
       "pages": [
         {
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "name": "Gallery Grid Page",
+      "name": "\"Portfolio Grid\"",
       "cluster": 7,
       "pages": [
         {
