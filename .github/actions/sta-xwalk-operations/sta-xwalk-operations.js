@@ -544,20 +544,6 @@ export async function run() {
       }
 
       await doExtractContentPaths(zipContentsPath);
-    } else if (operation === XWALK_OPERATIONS.DETECT_BOILERPLATE) {
-      // Detect if this is a boilerplate package
-      const result = await detectBoilerplate(zipContentsPath);
-
-      // Set outputs for detection
-      core.setOutput('is_boilerplate', result.isBoilerplate.toString());
-      core.setOutput('content_package_path', result.contentPackagePath);
-      core.setOutput('page_paths', JSON.stringify(result.pagePaths));
-
-      if (result.isBoilerplate) {
-        core.info(`✅ Detected boilerplate package with ${result.pagePaths.length} paths: ${result.pagePaths.join(', ')}`);
-      } else {
-        core.info(`✅ Not a boilerplate package. Found ${result.pagePaths.length} paths: ${result.pagePaths.join(', ')}`);
-      }
     } else if (operation === XWALK_OPERATIONS.CONVERT_BOILERPLATE) {
       // First detect if this is a boilerplate package
       const result = await detectBoilerplate(zipContentsPath);
